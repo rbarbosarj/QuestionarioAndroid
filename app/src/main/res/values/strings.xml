@@ -1,0 +1,96 @@
+<resources>
+
+    <string name="app_name">QuestionarioApp</string>
+
+    <!-- MainActivity -->
+    <string name="tela1_label">Bem-vindo ao App de Perfil de Investimento</string>
+    <string name="tela1_campo">Digite Seu Nome</string>
+    <string name="tela1_botao">Iniciar Questionário</string>
+
+    <!-- QuestionarioActivity -->
+    <string name="tela2_label">Olá, %1$s!</string>
+
+    <!-- Pergunta 1 -->
+    <string name="questao1_descricao">1. Qual é o valor do seu investimento inicial?</string>
+    <string name="questao1_campo1">Informe o valor do investimento único</string>
+    <string name="questao1_campo2">Informe o valor do investimento periódico</string>
+
+    <!-- Pergunta 2 -->
+    <string name="questao2_descricao">2. Você planeja fazer um único saque de uma parte ou de todo o investimento?</string>
+    <string name="questao2_opcao">Sim, pretendo fazer um único saque de uma parte ou de todo o investimento.</string>
+    <string name="questao2_campo">Informe o valor do saque único que pretende fazer.</string>
+
+    <!-- Pergunta 3 -->
+    <string name="questao3_descricao">3. Você está disposto(a) a assumir riscos em seus investimentos para obter maiores retornos?</string>
+    <string name="questao3_opcao1">Não, prefiro não assumir riscos e manter meu investimento seguro.</string>
+    <string name="questao3_opcao2">Sim, estou disposto(a) a assumir riscos moderados para potenciais ganhos moderados.</string>
+    <string name="questao3_opcao3">Sim, estou disposto(a) a assumir riscos significativos para potenciais ganhos elevados.</string>
+    <string name="questao3_opcao4">Sim, estou disposto(a) a assumir riscos muito elevados para potenciais ganhos excepcionais.</string>
+
+    <!-- Pergunta 4 -->
+    <string name="questao4_descricao">4. Qual é o seu prazo de investimento planejado?</string>
+    <string name="questao4_opcao1">Curto prazo (até 1 ano)</string>
+    <string name="questao4_opcao2">Médio prazo (1 a 5 anos)</string>
+    <string name="questao4_opcao3">Longo prazo (mais de 5 anos)</string>
+    <string name="questao4_opcao4">Indefinido</string>
+    <string name="questao4_opcao5">Estou considerando múltiplos prazos de investimento</string>
+    <string name="questao4_opcao6">Prefiro não especificar</string>
+
+    <!-- Pergunta 5 -->
+    <string name="questao5_descricao">5. Você pretende adicionar mais dinheiro ao seu investimento regularmente?</string>
+    <string name="questao5_opcao1">Sim, pretendo adicionar mais dinheiro regularmente ao meu investimento.</string>
+    <string name="questao5_opcao2">Não, pretendo apenas investir o valor inicial sem adições adicionais.</string>
+    <string name="questao5_opcao3">Estou indeciso(a) sobre adicionar mais dinheiro ao meu investimento.</string>
+    <string name="questao5_opcao4">Prefiro não especificar neste momento.</string>
+
+    <!-- Pergunta 6 -->
+    <string name="questao6_descricao">6. Como você se sentiria se o valor do seu investimento diminuísse temporariamente devido a flutuações normais do mercado?</string>
+    <string name="questao6_opcao1">Não me importaria, pois sei que flutuações são normais no mercado financeiro.</string>
+    <string name="questao6_opcao2">Eu ficaria um pouco preocupado(a), mas esperaria para ver se o valor se recuperaria.</string>
+    <string name="questao6_opcao3">Eu ficaria bastante preocupado(a) e consideraria vender parte do meu investimento.</string>
+    <string name="questao6_opcao4">Eu ficaria extremamente preocupado(a) e venderia imediatamente parte ou todo o meu investimento.</string>
+    <string name="questao6_opcao5">Prefiro não responder.</string>
+
+    <!-- Pergunta 7 -->
+    <string name="questao7_descricao">7. Quais desses eventos poderiam afetar significativamente sua situação financeira atual ou futura? (Marque todas as opções aplicáveis)</string>
+    <string name="questao7_opcao1">Perda de renda devido a instabilidade no emprego ou negócios</string>
+    <string name="questao7_opcao2">Nascimento ou custos adicionais de criar uma criança</string>
+    <string name="questao7_opcao3">Morte do cônjuge ou parceiro(a) financeiro(a)</string>
+    <string name="questao7_opcao4">Acidente grave ou doença inesperada</string>
+    <string name="questao7_opcao5">Divórcio ou separação</string>
+    <string name="questao7_opcao6">Recessão econômica ou crise financeira global</string>
+    <string name="questao7_opcao7">Outro evento significativo não listado</string>
+
+    <!-- Pergunta 8 -->
+    <string name="questao8_descricao">8. Qual destas opções melhor descreve a importância da segurança financeira para você?</string>
+    <string name="questao8_opcao1">Manter um fluxo de renda estável e previsível é minha prioridade.</string>
+    <string name="questao8_opcao2">Ter uma reserva financeira para emergências é fundamental para minha segurança.</string>
+    <string name="questao8_opcao3">Estabilidade profissional e segurança no emprego são essenciais para mim.</string>
+    <string name="questao8_opcao4">Alcançar independência financeira para não depender de outras fontes é meu objetivo.</string>
+
+    <!-- Pergunta 9 -->
+    <string name="questao9_descricao">9. Há algum outro evento ou fator não mencionado anteriormente que poderia impactar seus planos financeiros?</string>
+    <string name="questao9_campo">Descreva outro evento ou fator que poderia impactar seus planos financeiros</string>
+
+    <!-- Pergunta 10 -->
+    <string name="questao10_descricao">10. Suponha que você invista R$ 100. Durante um período de mais de três anos, com quanto de uma queda no valor do seu portfólio você se sentiria confortável?</string>
+    <string name="questao10_opcao1">Nenhum (R$ 0)</string>
+    <string name="questao10_opcao2">Queda de 5% (R$ 5)</string>
+    <string name="questao10_opcao3">Queda de 15% (R$ 15)</string>
+    <string name="questao10_opcao4">Queda de 30% (R$ 30)</string>
+    <string name="questao10_opcao5">Mais de 30% de declínio (mais de R$ 30)</string>
+
+    <!-- Pergunta 11 -->
+    <string name="questao11_descricao">11. Suponha que você tenha investido R$ 100 nos últimos cinco anos e leia este artigo. Você investiu um total de R$ 100, mas perdeu R$ 20 e, portanto, agora tem R$ 80 restantes. Como você reagiria?</string>
+    <string name="questao11_opcao1">Eu venderia o resto do meu investimento para evitar perder mais dinheiro.</string>
+    <string name="questao11_opcao2">Eu venderia parte do meu investimento para proteger parte do meu capital.</string>
+    <string name="questao11_opcao3">Eu manteria meu investimento na esperança de obter um retorno melhor no futuro.</string>
+    <string name="questao11_opcao4">Eu veria os preços mais baixos como uma oportunidade de compra e aumentaria minhas participações.</string>
+
+    <string name="tela2_botao">Enviar Respostas</string>
+
+    <!-- ResultadoActivity -->
+    <string name="tela3_label">%1$s,\nseu perfil de investidor é:\n\n%2$s</string>
+    <string name="tela3_botao">Compartilhar Resultado</string>
+
+</resources>

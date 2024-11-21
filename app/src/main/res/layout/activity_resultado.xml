@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/TextView_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tela3_label"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:id="@+id/botao_compartilhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tela3_botao"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bem_vindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tela1_label"
+        app:layout_constraintBottom_toTopOf="@+id/EditText_nome_usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/EditText_nome_usuario"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="name"
+        android:background="@color/edittext_background"
+        android:hint="@string/tela1_campo"
+        android:inputType="textPersonName"
+        android:maxWidth="300dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"
+        app:layout_constraintBottom_toTopOf="@+id/botao_iniciar_questionario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bem_vindo" />
+
+    <Button
+        android:id="@+id/botao_iniciar_questionario"
+        android:layout_width="334dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tela1_botao"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText_nome_usuario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
